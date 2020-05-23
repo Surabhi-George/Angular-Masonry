@@ -1,0 +1,11 @@
+<section>
+    <!-- HOW TO VIDEO -->
+    <div class="container">
+        <h2>Masonry</h2>
+        <ul class="an-masonary">
+            <li *ngFor="let data of masonary;let i = index;">
+                <img src="{{data.image}}" class="masonry-img" alt="Masonry Brick #{{i}}">
+            </li>
+        </ul>
+    </div>
+</section>
